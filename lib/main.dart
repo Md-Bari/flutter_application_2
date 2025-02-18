@@ -34,7 +34,7 @@ class ProductCard extends StatelessWidget {
               Stack(
                 children: [
                   Image.network(
-                    'https://example.com/nike-air-shoes.jpg', // Replace with your image URL
+                    'https://nikearprod.vtexassets.com/arquivos/ids/1217812-800-800?width=800&height=800&aspect=true&fbclid=IwY2xjawIhiwpleHRuA2FlbQIxMAABHdgewkYG8JIuxt2hBXNYzUI2G586Q4BOD5lw4AYQN2maahAl5JAOMQURtg_aem_GloTTWQHf8zZ6uJ8pKWtbA', // Replace with your image URL
                     height: 150,
                     width: double.infinity,
                     fit: BoxFit.cover,
