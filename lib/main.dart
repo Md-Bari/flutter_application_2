@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp();
+  runApp(const LabClass05());
 }
 
-class LabClass extends StatelessWidget {
+class LabClass05 extends StatelessWidget {
   const LabClass05({super.key});
   @override
   Widget build(BuildContext context){
@@ -19,31 +19,45 @@ class LabClass extends StatelessWidget {
       body: Row(
         children: [
           Text(
-            "Hi, ",
+            "4.0",
             style: TextStyle(
-              color: Colors.red,
-              fontSize: 30,
+              color: Colors.black,
+              fontSize: 25,
             ),
           ),
-          Text(
-            "this is ",
-            style:TextStyle(
-              color: Colors.green,
-              fontSize: 50,
-            ),
+          Icon(
+            Icons.star,
+            size: 60,
+            
+            color: const Color.fromARGB(255, 255, 217, 0),
           ),
-          Text(
-            "Shitol of DIU",
-            style: TextStyle(
-              color: Colors.blue,
-              fontSize: 70,
-            ),
-          )
+          Icon(
+            Icons.star,
+            size: 60,
+            color: const Color.fromARGB(255, 34, 230, 0),
+          ),
+          Icon(
+            Icons.star,
+            size: 60,
+            color: const Color.fromARGB(255, 172, 0, 0),
+          ),
+          Icon(
+            Icons.star,
+            size: 60,
+            color: const Color.fromARGB(255, 102, 132, 97),
+          ),
+          Icon(
+            Icons.star_border_outlined,
+            size: 60,
+            color: const Color.fromARGB(255, 102, 132, 97),
+          ),
+          
         ],
       ),
+      
       ),
       
-    )
+    );
 
   }
 
